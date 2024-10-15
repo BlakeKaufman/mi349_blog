@@ -16,5 +16,28 @@
         </ul>
       </nav>
     </header>
+    <section>
+      <h2>Contact Us</h2>
+      <form>
+        <label>
+          Name:
+          <input type="text" name="sendersName" placeholder="Enter name here" />
+        </label>
+        <label>
+          Email:
+          <input type="text" name="email" placeholder="Enter email here" />
+        </label>
+        <label for="reasonDropdown">Reason for contacting</label>
+        <select id="reasonDropdown" name="reasonDropdown">
+          <option value="saying_hi">saying hi</option>
+          <option value="contractor">looking for a contractor</option>
+          <option value="interview">interested in an interview</option>
+        </select>
+        <label for="message">Message:</label>
+        <textarea placeholder="Add message here" name="message"></textarea>
+
+        <button>Submit</button>
+      </form>
+    </section>
   </body>
 </html>
