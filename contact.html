@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
     <link rel="shortcut icon" href="./images/Logo.svg" type="image/x-icon" />
     <title>Blake's Blog | Contact</title>
   </head>
@@ -33,32 +34,49 @@
         </ul>
       </nav>
     </header>
-    <section>
-      <h2 id="pageDescription">Contact Us</h2>
-      <form method="post">
-        <label>
-          Name:
-          <input type="text" name="sendersName" placeholder="Enter name here" />
-        </label>
-        <label>
-          Email:
-          <input type="email" name="email" placeholder="Enter email here" />
-        </label>
-        <label for="reasonDropdown">Reason for contacting</label>
-        <select id="reasonDropdown" name="reasonDropdown">
-          <option value="saying_hi">saying hi</option>
-          <option value="contractor">looking for a contractor</option>
-          <option value="interview">interested in an interview</option>
-        </select>
-        <label for="message">Message:</label>
-        <textarea
-          placeholder="Add message here"
-          id="message"
-          name="message"
-        ></textarea>
+    <main>
+      <section>
+        <h2 id="pageDescription">Contact Us</h2>
+        <div class="formContainer">
+          <div class="questionContainer">
+            <h2>Hi,</h2>
+            <h2>Have a question in mind?</h2>
+          </div>
+          <form action="/contact.html" method="post">
+            <label>
+              Full Name:
+              <input
+                type="text"
+                name="sendersName"
+                placeholder="Enter name here"
+              />
+            </label>
+            <label>
+              Email:
+              <input type="email" name="email" placeholder="Enter email here" />
+            </label>
+            <label for="reasonDropdown"
+              >Reason for contacting
+              <select id="reasonDropdown" name="reasonDropdown">
+                <option value="saying_hi">saying hi</option>
+                <option value="contractor">looking for a contractor</option>
+                <option value="interview">interested in an interview</option>
+              </select>
+            </label>
 
-        <button>Submit</button>
-      </form>
-    </section>
+            <label for="message"
+              >Message:
+              <textarea
+                placeholder="Add message here"
+                id="message"
+                name="message"
+              ></textarea>
+            </label>
+
+            <button>Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

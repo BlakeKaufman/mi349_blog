@@ -19,6 +19,11 @@ h2,
 p {
   color: var(--white);
 }
+main {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
 header {
   position: sticky;
