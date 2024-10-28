@@ -1,0 +1,49 @@
+main {
+  width: 95%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.pageHeader {
+  text-align: center;
+  margin-top: 50px;
+}
+.blogPostContainer {
+  margin-top: 50px;
+  padding-bottom: 50px;
+
+  border-bottom: 1px solid var(--white);
+}
+.blogPostContainer figure {
+  margin: 50px auto;
+  width: fit-content;
+}
+.blogPostContainer figure figcaption {
+  text-align: center;
+}
+
+.blogPostContainer p {
+  line-height: 2.5em;
+  margin: 20px 0;
+}
+
+.blogPostContainer {
+  width: 100%;
+  color: var(--white);
+}
+.blogPostContainer .tableDescription {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.blogPostContainer table tbody {
+  display: grid;
+  row-gap: 20px;
+}
+.blogPostContainer table tr {
+  display: grid;
+  column-gap: 10px;
+
+  grid-template-columns: 50px 1fr 1fr;
+}
+.blogPostContainer table tr td:first-child {
+  text-align: center;
+}
