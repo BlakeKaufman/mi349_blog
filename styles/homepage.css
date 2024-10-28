@@ -1,6 +1,6 @@
 main {
   width: 95%;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .pageHeader {
@@ -14,8 +14,19 @@ main {
   border-bottom: 1px solid var(--white);
 }
 .blogPostContainer figure {
-  margin: 50px auto;
+  margin: 40px auto;
   width: fit-content;
+}
+.blogPostContainer figure img {
+  width: 95%;
+  height: auto;
+  max-width: 700px;
+  background-color: var(--white);
+  padding: 10px;
+  border-radius: 8px;
+}
+.blogPostContainer .schoolPhoto {
+  float: left;
 }
 .blogPostContainer figure figcaption {
   text-align: center;
@@ -46,4 +57,49 @@ main {
 }
 .blogPostContainer table tr td:first-child {
   text-align: center;
+}
+
+.newsletterSection {
+  margin: 50px 0;
+  justify-content: center;
+}
+.newsletterSection h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.newsletterSection form {
+  /* max-width: '300px'; */
+  height: 35px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.newsletterSection form label {
+  height: 100%;
+  color: var(--white);
+}
+.newsletterSection form input[type="email"] {
+  width: auto;
+  background-color: var(--white);
+  color: var(--black);
+  border: 0;
+  border-radius: 8px;
+  padding: 0 15px;
+  height: 100%;
+  margin-left: 10px;
+}
+.newsletterSection form button {
+  height: 90%;
+  width: 100px;
+  background-color: var(--white);
+  color: var(--white);
+  border: 0;
+  border-radius: 15px;
+  transform: translate(-10px, 5%);
+
+  z-index: 1;
+
+  background-color: var(--blue);
+
+  cursor: pointer;
 }
