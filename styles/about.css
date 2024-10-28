@@ -1,0 +1,24 @@
+main {
+  width: 95%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 50px;
+}
+.profileImage {
+  width: 95%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 50%;
+  margin: 50px auto;
+}
+
+p,
+ul {
+  margin: 20px 0;
+}
+
+ul {
+  color: var(--white);
+  margin-left: min(10%, 80px);
+}

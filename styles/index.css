@@ -36,6 +36,7 @@ header #pageHeader {
   padding: 10px 0;
   border-bottom: 1px solid var(--black);
 }
+
 header nav {
   width: 95%;
   max-width: 1000px;
@@ -93,4 +94,8 @@ a:active {
 
 a:visited {
   color: var(--blue);
+}
+#pageDescription {
+  text-align: center;
+  margin-top: 50px;
 }
