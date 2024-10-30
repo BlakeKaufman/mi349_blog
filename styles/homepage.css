@@ -13,6 +13,10 @@ main {
 .blogPostContainer figure {
   margin: 40px auto;
   width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .blogPostContainer figure img {
   width: 95%;
@@ -27,6 +31,8 @@ main {
 }
 .blogPostContainer figure figcaption {
   text-align: center;
+  width: max-content;
+  margin-top: 10px;
 }
 
 .blogPostContainer p {
