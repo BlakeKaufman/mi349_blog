@@ -20,5 +20,6 @@ ul {
 
 main ul {
   color: var(--white);
-  margin-left: min(10%, 80px);
+  width: 80%;
+  margin: 0 auto;
 }
